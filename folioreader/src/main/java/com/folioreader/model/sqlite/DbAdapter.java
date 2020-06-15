@@ -11,6 +11,7 @@ public class DbAdapter {
 
     public static SQLiteDatabase mDatabase;
 
+
     public static void initialize(Context mContext) {
         mDatabase = FolioDatabaseHelper.getInstance(mContext).getMyWritableDatabase();
     }

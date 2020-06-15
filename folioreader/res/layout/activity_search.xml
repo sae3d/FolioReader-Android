@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.folioreader.ui.activity.SearchActivity"
+    android:layoutDirection="rtl"
     tools:menu="@menu/menu_search">
 
     <androidx.recyclerview.widget.RecyclerView
@@ -35,6 +36,8 @@
             android:layout_height="?android:attr/actionBarSize"
             app:contentInsetLeft="0dp"
             app:contentInsetStart="0dp"
+            android:layoutDirection="rtl"
+            android:gravity="right"
             app:contentInsetStartWithNavigation="0dp" />
 
     </com.google.android.material.appbar.AppBarLayout>

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:gravity="right"
     android:layout_height="wrap_content">
 
     <LinearLayout
         android:id="@+id/swipe_linear_layout"
         android:layout_width="160dp"
+        android:layoutDirection="rtl"
+        android:gravity="left"
         android:layout_height="0dp">
 
         <ImageView
@@ -32,6 +36,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+
         android:padding="8dp">
 
         <TextView
